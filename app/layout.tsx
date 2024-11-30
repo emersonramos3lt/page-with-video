@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={roboto.className}>
+      <body className={`overflow-hidden bg-slate-950 ${roboto.className}`}>
         {children}
       </body>
     </html>
